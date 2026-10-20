@@ -1,13 +1,13 @@
 Updated to reflect the new file storage location and access abilities of EarthScope National Geophysical Facility (NGF) as of 9/8/2026. If you encounter any issues, please submit a GitHub issue and/or contact Lkeen@mathworks.com
 
-# Fetch Files from SAGE Seismic Data Website [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=drLKeen/sageFetchFiles&file=https://github.com/drLKeen/sageFetchFiles/blob/main/README.md)  [![View sageFetchFiles on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/184376-fetch-files-from-sage-seismic-data-website?s_tid=srchtitle)
+# MATLAB Tools for EarthScope [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=drLKeen/sageFetchFiles&file=https://github.com/drLKeen/sageFetchFiles/blob/main/README.md)  [![View sageFetchFiles on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/184376-fetch-files-from-sage-seismic-data-website?s_tid=srchtitle)
 
 This repository simplifies access to those services from MATLAB®, enabling users to retrieve seismic waveform data in formats such as MiniSEED and SAC, import them directly into MATLAB, and integrate them into existing analysis workflows without manual URL construction or file handling.
 
 A workflow for automatically accessing data from the SAGE (Seismological Facility for the Advancement of Geoscience, formerly IRIS) seismic data services via the IRISWS interface. The FDSNWS interface provided by SAGE no longer offers a variety of file types and appears to be updated less frequently. All files available through FDSNWS are also available through IRISWS. 
 
 This workflow allows you to:
-* Specify IRISWS (timeseries) dataselect parameters in a single table.
+* Specify FDSNWS (timeseries) dataselect parameters in a single table.
 * Programmatically build a standards-compliant URL.
 * Retrieve and parse seismic traces (MiniSEED or SAC) directly into MATLAB®.
 
